@@ -1,4 +1,5 @@
-Secure Vault & Authorization Manager
+**Secure Vault & Authorization Manager
+**
 This project implements a secure, production-ready treasury system that separates fund management from access control. By using an external Authorization Manager, we ensure that the vault's assets are only accessible via cryptographically verified permissions.
 
 🚀 Quick Start
@@ -48,3 +49,4 @@ Key Management: This system assumes the trusted signer's private key is stored i
 Design Trade-offs: We chose a single-signer model for simplicity and speed, though the architecture allows for a multi-sig upgrade in the future.
 
 Efficiency: By requiring users to provide the signature, the vault offloads the "permission check" computational cost to the requester, keeping the protocol gas-efficient.
+
